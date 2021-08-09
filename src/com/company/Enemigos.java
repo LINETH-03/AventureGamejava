@@ -4,6 +4,7 @@ public class Enemigos extends Personaje {
 
 
 
+
    public Coordenadas enemigos;
     public Enemigos() {
         setNombre("Ultron");
