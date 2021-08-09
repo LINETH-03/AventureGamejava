@@ -1,9 +1,7 @@
 package com.company;
 
 public class Enemigos extends Personaje {
-
-
-
+    Mueble [] MochilaEnem;
 
    public Coordenadas enemigos;
     public Enemigos() {

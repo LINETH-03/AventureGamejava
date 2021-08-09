@@ -3,6 +3,7 @@ package com.company;
 
 
 public class Heroes extends Personaje {
+    //asociacion de coordenadas con el HEROE
     public Coordenadas heroe;
     public Heroes() {
         setNombre("IRON MAN");
@@ -12,7 +13,7 @@ public class Heroes extends Personaje {
 
     }
 
-
+    //declarar Mueble como un arreglo que se usara para la agregar los onjetos a la mochila
     Mueble [] Mochila;
 
 
