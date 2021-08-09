@@ -1,9 +1,7 @@
 package com.company;
 
 public class Inmuebles {
-    Coordenadas inmuebles;
+   Coordenadas inmuebles;
 
-    public Inmuebles(Coordenadas inmuebles) {
-        this.inmuebles = inmuebles;
-    }
+
 }
