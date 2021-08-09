@@ -4,7 +4,7 @@ public class Personaje {
     private String nombre;
     private int energia;
     private int vidas;
-    private int defensiva;
+    private int ofensiva;
 
     public String getNombre() {
         return nombre;
@@ -30,13 +30,15 @@ public class Personaje {
         this.vidas = vidas;
     }
 
-    public int getDefensiva() {
-        return defensiva;
+    public int getOfensiva() {
+        return ofensiva;
     }
 
-    public void setDefensiva(int defensiva) {
-        this.defensiva = defensiva;
+    public void setOfensiva(int ofensiva) {
+        this.ofensiva = ofensiva;
     }
-
+    public void AddOfensiva(int n){
+        ofensiva += n;
+    }
 
 }

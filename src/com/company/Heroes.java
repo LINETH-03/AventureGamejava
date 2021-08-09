@@ -8,18 +8,18 @@ public class Heroes extends Personaje {
         setNombre("IRON MAN");
         setEnergia(10);
         setVidas(3);
-        setDefensiva(5);
+        setOfensiva(8);
 
     }
 
 
-    Mueble [] Muebles;
+    Mueble [] Mochila;
 
     public String action(){
         String name=this.getNombre();
         int energia=this.getEnergia();
         int vida=this.getVidas();
-        int defender=this.getDefensiva();
+        int defender=this.getOfensiva();
         String acton = name+" Tiene energia : " +energia+ " tiene "+vida+" vidas y ataque defensiva una carga de "+defender;
         return acton;
 
